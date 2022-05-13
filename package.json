@@ -18,5 +18,8 @@
   "homepage": "https://github.com/ChenGongWei/create-page#readme",
   "bin": {
     "create-page": "bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^9.2.0"
   }
 }
