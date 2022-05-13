@@ -1,10 +1,14 @@
 {
   "name": "@chengongwei/create-page",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "创建react页面模板",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access=public"
+  },
+  "bin": {
+    "create-page": "node lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,10 +20,11 @@
     "url": "https://github.com/ChenGongWei/create-page/issues"
   },
   "homepage": "https://github.com/ChenGongWei/create-page#readme",
-  "bin": {
-    "create-page": "bin/index.js"
-  },
   "dependencies": {
-    "commander": "^9.2.0"
+    "colors-cli": "^1.0.28",
+    "commander": "^9.2.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "path": "^0.12.7"
   }
 }

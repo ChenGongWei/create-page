@@ -2,7 +2,70 @@
 # yarn lockfile v1
 
 
+colors-cli@^1.0.28:
+  version "1.0.28"
+  resolved "https://npm.yzops.net/colors-cli/-/colors-cli-1.0.28.tgz#edce4c6f86acaeb58910887be87ab801b833d220"
+  integrity sha512-2XE8s1mB3Jr5rvirk/fFzhWY2m9S2dpZ0mWz3Yl/mzMM8hDVBawL0Rsal5hR1gJP4lgqhQfFfEmaGZpUZgEKrA==
+
 commander@^9.2.0:
   version "9.2.0"
   resolved "https://npm.yzops.net/commander/-/commander-9.2.0.tgz#6e21014b2ed90d8b7c9647230d8b7a94a4a419a9"
   integrity sha512-e2i4wANQiSXgnrBlIatyHtP1odfUp0BbV5Y5nEGbxtIrStkEOAAzCUirvLBNXHLr7kwLvJl6V+4V3XV9x7Wd9w==
+
+fs-extra@^10.0.0:
+  version "10.1.0"
+  resolved "https://npm.yzops.net/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
+  integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
+fs@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://npm.yzops.net/fs/-/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
+  integrity sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+
+graceful-fs@^4.1.6, graceful-fs@^4.2.0:
+  version "4.2.10"
+  resolved "https://npm.yzops.net/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
+  integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
+
+inherits@2.0.3:
+  version "2.0.3"
+  resolved "https://npm.yzops.net/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
+  integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+
+jsonfile@^6.0.1:
+  version "6.1.0"
+  resolved "https://npm.yzops.net/jsonfile/-/jsonfile-6.1.0.tgz#bc55b2634793c679ec6403094eb13698a6ec0aae"
+  integrity sha1-vFWyY0eTxnnsZAMJTrE2mKbsCq4=
+  dependencies:
+    universalify "^2.0.0"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
+path@^0.12.7:
+  version "0.12.7"
+  resolved "https://npm.yzops.net/path/-/path-0.12.7.tgz#d4dc2a506c4ce2197eb481ebfcd5b36c0140b10f"
+  integrity sha1-1NwqUGxM4hl+tIHr/NWzbAFAsQ8=
+  dependencies:
+    process "^0.11.1"
+    util "^0.10.3"
+
+process@^0.11.1:
+  version "0.11.10"
+  resolved "https://npm.yzops.net/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
+  integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
+
+universalify@^2.0.0:
+  version "2.0.0"
+  resolved "https://npm.yzops.net/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
+  integrity sha1-daSYTv7cSwiXXFrrc/Uw0C3yVxc=
+
+util@^0.10.3:
+  version "0.10.4"
+  resolved "https://npm.yzops.net/util/-/util-0.10.4.tgz#3aa0125bfe668a4672de58857d3ace27ecb76901"
+  integrity sha1-OqASW/5mikZy3liFfTrOJ+y3aQE=
+  dependencies:
+    inherits "2.0.3"
