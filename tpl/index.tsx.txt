@@ -1,0 +1,16 @@
+/**
+ * {{FileName}} {{comment}}
+ * @author {{author}}
+ * @date {{date}}
+ */
+
+ import React from 'react'
+ //import style from './style.module.scss'
+ 
+ interface {{FileName}}Props {}
+ 
+ const {{FileName}}: React.FC<{{FileName}}Props> = (props) => {
+     return <div>{{FileName}}</div>
+ }
+ 
+ export default {{FileName}}
