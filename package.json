@@ -1,6 +1,6 @@
 {
   "name": "@chengongwei/create-page",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "创建react页面模板",
   "main": "index.js",
   "scripts": {
